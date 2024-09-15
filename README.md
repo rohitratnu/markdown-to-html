@@ -81,4 +81,4 @@ coverage html
    - Enter your Markdown text in the form.
    - Click the "Convert" button to see the HTML output.
 5. To close the app on docker run `docker compose -f docker-compose.yml down`
-6. To delete the image `docker rmi markdown-to-html-web`
+6. To delete the image `docker rmi markdown-to-html-main-web`
