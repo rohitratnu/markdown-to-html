@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown to HTML Converter</title>
+</head>
+<body>
+    <h1>Markdown to HTML Converter</h1>
+    <form method="post">
+        <textarea name="markdown" rows="10" cols="80" placeholder="Enter your markdown here...">{{ markdown }}</textarea><br>
+        <button type="submit">Convert</button>
+    </form>
+
+    <h2>HTML Output</h2>
+    <div style="border: 1px solid #000; padding: 10px;">
+        {{ html_output|safe }}
+    </div>
+</body>
+</html>
